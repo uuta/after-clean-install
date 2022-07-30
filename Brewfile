@@ -10,6 +10,7 @@ brew "tfenv"
 brew "tmux"
 brew "tree"
 brew "ripgrep"
+brew "neovim"
 
 cask "alfred"
 cask "appcleaner"
