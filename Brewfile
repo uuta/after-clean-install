@@ -27,4 +27,5 @@ cask "dash"
 cask "homebrew/cask/anki"
 cask "ngrok"
 cask "neovide"
+cask "font-hack-nerd-font"
 
