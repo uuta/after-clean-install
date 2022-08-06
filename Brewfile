@@ -26,4 +26,5 @@ cask "dbeaver-community"
 cask "dash"
 cask "homebrew/cask/anki"
 cask "ngrok"
+cask "neovide"
 
