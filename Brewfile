@@ -11,6 +11,7 @@ brew "tmux"
 brew "tree"
 brew "ripgrep"
 brew "neovim"
+brew "prettier"
 
 cask "alfred"
 cask "appcleaner"
