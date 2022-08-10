@@ -12,6 +12,18 @@ brew "tree"
 brew "ripgrep"
 brew "neovim"
 brew "prettier"
+brew "mas"
+brew "node@14"
+brew "node@16"
+brew "php"
+brew "php@7.4"
+brew "php@8.0"
+brew "python@3.8"
+brew "typescript"
+
+# Go
+brew "gopls"
+brew "go@1.18"
 
 cask "alfred"
 cask "appcleaner"
@@ -27,5 +39,8 @@ cask "dash"
 cask "homebrew/cask/anki"
 cask "ngrok"
 cask "neovide"
+
+tap "homebrew/cask-fonts"
 cask "font-hack-nerd-font"
 
+mas 'Dashlane', id: 517914548
