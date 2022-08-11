@@ -18,8 +18,11 @@ brew "node@16"
 brew "php"
 brew "php@7.4"
 brew "php@8.0"
+brew "phpenv"
 brew "python@3.8"
 brew "typescript"
+brew "zinit"
+brew "romkatv/powerlevel10k/powerlevel10k"
 
 # Go
 brew "gopls"

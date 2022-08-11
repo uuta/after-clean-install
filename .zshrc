@@ -7,16 +7,11 @@ fi
 
 ################################
 ### source
-### zplugin
-source ~/.zinit/bin/zplugin.zsh
 ### theme
-source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
+source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
 
 ################################
 ### PATH
-# phpenv
-export PATH="$HOME/.phpenv/bin:$PATH"
-eval "$(phpenv init -)"
 export PATH="/usr/local/opt/bison/bin:$PATH"
 export PATH="/usr/local/opt/libxml2/bin:$PATH"
 export PATH="/usr/local/opt/bzip2/bin:$PATH"
@@ -34,7 +29,7 @@ export PATH="$PATH:`pwd`/flutter/bin"
 export PATH="$PATH:~/flutter/bin"
 
 ### Added by Zinit's installer
-if [[ ! -f $HOME/.zinit/bin/zinit.zsh ]]; then
+if [[ ! -f /opt/homebrew/Cellar/zinit/3.7/zinit.zsh ]]; then
     print -P "%F{33}▓▒░ %F{220}Installing %F{33}DHARMA%F{220} Initiative Plugin Manager (%F{33}zdharma/zinit%F{220})…%f"
     command mkdir -p "$HOME/.zinit" && command chmod g-rwX "$HOME/.zinit"
     command git clone https://github.com/zdharma/zinit "$HOME/.zinit/bin" && \
@@ -42,42 +37,11 @@ if [[ ! -f $HOME/.zinit/bin/zinit.zsh ]]; then
         print -P "%F{160}▓▒░ The clone has failed.%f%b"
 fi
 
-source "$HOME/.zinit/bin/zinit.zsh"
+source "/opt/homebrew/Cellar/zinit/3.7/zinit.zsh"
 autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinit
 
-# Load a few important annexes, without Turbo
-# (this is currently required for annexes)
-zinit light-mode for \
-    zinit-zsh/z-a-rust \
-    zinit-zsh/z-a-as-monitor \
-    zinit-zsh/z-a-patch-dl \
-    zinit-zsh/z-a-bin-gem-node
-
 ### End of Zinit's installer chunk
-
-#################################
-## plugin
-# 入力途中に候補をうっすら表示
-zplugin light zsh-users/zsh-autosuggestions
-# 補完を更に強化する
-# pacman や yaourt のパッケージリストも補完するようになる
-zplugin light zsh-users/zsh-completions
-# シンタックスハイライト
-zplugin light zsh-users/zsh-syntax-highlighting
-# history関係
-zplugin light zsh-users/zsh-history-substring-search
-# タイプ補完
-zplugin light "zsh-users/zsh-autosuggestions"
-zplugin light "zsh-users/zsh-completions"
-zplugin light "chrissicool/zsh-256color"
-zplugin light "peterhurford/git-aliases.zsh"
-# Git補完
-zplugin light "woefe/git-prompt.zsh"
-# コマンド時間
-zplugin light "popstas/zsh-command-time"
-# ディレクトリカラー
-zplugin light "joel-porquet/zsh-dircolors-solarized"
 
 #################################
 ## prompt
@@ -187,7 +151,6 @@ alias ls="ls -GF"
 alias gls="gls --color"
 
 zstyle ':completion:*' list-colors 'di=34' 'ln=35' 'so=32' 'ex=31' 'bd=46;34' 'cd=43;34'
-source ~/.phpbrew/bashrc
 
 export LDFLAGS="-L/usr/local/opt/zlib/lib"
 export CPPFLAGS="-I/usr/local/opt/zlib/include"
@@ -201,3 +164,4 @@ export PATH="$HOME/cloud_sql_proxy:$PATH"
 # GitHub CLI
 eval "$(gh completion -s zsh)"
 export PATH="/usr/local/opt/node@14/bin:$PATH"
+### End of Zinit's installer chunk
