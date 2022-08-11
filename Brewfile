@@ -39,6 +39,7 @@ cask "dash"
 cask "homebrew/cask/anki"
 cask "ngrok"
 cask "neovide"
+cask "hammerspoon"
 
 tap "homebrew/cask-fonts"
 cask "font-hack-nerd-font"
