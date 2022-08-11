@@ -43,6 +43,10 @@ autoload -Uz _zinit
 
 ### End of Zinit's installer chunk
 
+### Color configuration
+export CLICOLOR=1
+export TERM=xterm-256color
+
 #################################
 ## prompt
 PROMPT='%F{red}%d%f$ '
