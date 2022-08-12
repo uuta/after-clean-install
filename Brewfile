@@ -27,6 +27,7 @@ brew "exa"
 brew "zsh-syntax-highlighting"
 brew "bat"
 brew "peco"
+brew "docker-compose"
 
 # Go
 brew "gopls"

@@ -130,7 +130,7 @@ function peco-history-selection() {
 }
 
 zle -N peco-history-selection
-bindkey '^R' peco-history-selection
+bindkey ';e' peco-history-selection
 
 # search git derectory
 alias g='cd $(ghq root)/$(ghq list | peco)'
