@@ -46,6 +46,7 @@ autoload -Uz _zinit
 ### Color configuration
 export CLICOLOR=1
 export TERM=xterm-256color
+source "/opt/homebrew/Cellar/zsh-syntax-highlighting/0.7.1/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 
 #################################
 ## prompt
@@ -53,6 +54,14 @@ PROMPT='%F{red}%d%f$ '
 
 #################################
 ## alias
+
+# exa (highrighter)
+if [[ $(command -v exa) ]]; then
+  alias ls='exa --icons --git'
+  alias lt='exa -T -L 3 -a -I "node_modules|.git|.cache" --icons'
+  alias ltl='exa -T -L 3 -a -I "node_modules|.git|.cache" -l --icons'
+  alias ll='exa -l -aa -h -@ -m --icons --git --time-style=long-iso --color=automatic --group-directories-first'
+fi
 
 ## git
 alias gs='git status'
@@ -70,7 +79,6 @@ alias gl='git log'
 alias grb='git rebase'
 
 ## shell
-alias ll='ls -la'
 dirtouch() {
     mkdir -p "$(dirname $1)"
     touch "$1"
@@ -108,6 +116,7 @@ alias nnv='nvim ~/.vimrc'
 alias nnz='nvim ~/.zshrc'
 alias nnd='nvim ~/.config/nvim/toml/dein.toml'
 alias nni='nvim ~/.config/nvim/init.lua'
+alias nnb='nvim ~/after-clean-install/Brewfile'
 
 ## php
 alias php7.0='/Applications/MAMP/bin/php/php7.0.33/bin/php'
@@ -169,3 +178,7 @@ export PATH="$HOME/cloud_sql_proxy:$PATH"
 eval "$(gh completion -s zsh)"
 export PATH="/usr/local/opt/node@14/bin:$PATH"
 ### End of Zinit's installer chunk
+
+# znap
+source ~/app/zsh-snap/znap.zsh
+znap source marlonrichert/zsh-autocomplete
