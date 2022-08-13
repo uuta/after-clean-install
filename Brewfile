@@ -28,6 +28,8 @@ brew "zsh-syntax-highlighting"
 brew "bat"
 brew "peco"
 brew "docker-compose"
+brew "nvm"
+brew "yarn"
 
 # Go
 brew "gopls"
