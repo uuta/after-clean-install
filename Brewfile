@@ -54,6 +54,7 @@ cask "slack"
 cask "kindle"
 cask "deepl"
 cask "dropbox"
+cask "google-cloud-sdk"
 
 tap "homebrew/cask-fonts"
 cask "font-hack-nerd-font"
