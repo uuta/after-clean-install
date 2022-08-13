@@ -30,6 +30,7 @@ brew "peco"
 brew "docker-compose"
 brew "nvm"
 brew "yarn"
+brew "composer"
 
 # Go
 brew "gopls"
