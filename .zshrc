@@ -77,6 +77,7 @@ alias gd='git diff'
 alias gf='git fetch'
 alias gl='git log'
 alias grb='git rebase'
+alias gb='git branch'
 
 ## shell
 dirtouch() {

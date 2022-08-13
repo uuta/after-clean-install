@@ -52,6 +52,8 @@ cask "dbeaver-community"
 cask "discord"
 cask "slack"
 cask "kindle"
+cask "deepl"
+cask "dropbox"
 
 tap "homebrew/cask-fonts"
 cask "font-hack-nerd-font"
