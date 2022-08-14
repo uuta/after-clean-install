@@ -58,6 +58,7 @@ cask "deepl"
 cask "dropbox"
 cask "google-cloud-sdk"
 cask "figma"
+cask "microsoft-edge"
 
 tap "homebrew/cask-fonts"
 cask "font-hack-nerd-font"
