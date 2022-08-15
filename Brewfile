@@ -30,6 +30,7 @@ brew "docker-compose"
 brew "nvm"
 brew "yarn"
 brew "composer"
+brew "zsh-autosuggestions"
 
 # Go
 brew "gopls"
@@ -59,7 +60,7 @@ cask "dropbox"
 cask "google-cloud-sdk"
 cask "figma"
 cask "microsoft-edge"
-cask "zoomus"
+cask "zoom"
 
 tap "homebrew/cask-fonts"
 cask "font-hack-nerd-font"
