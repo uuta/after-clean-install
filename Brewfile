@@ -59,6 +59,7 @@ cask "dropbox"
 cask "google-cloud-sdk"
 cask "figma"
 cask "microsoft-edge"
+cask "zoomus"
 
 tap "homebrew/cask-fonts"
 cask "font-hack-nerd-font"
