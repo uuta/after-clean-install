@@ -31,6 +31,7 @@ brew "nvm"
 brew "yarn"
 brew "composer"
 brew "zsh-autosuggestions"
+brew "golangci-lint"
 
 # Go
 brew "gopls"
@@ -61,6 +62,7 @@ cask "google-cloud-sdk"
 cask "figma"
 cask "microsoft-edge"
 cask "zoom"
+cask "krisp"
 
 tap "homebrew/cask-fonts"
 cask "font-hack-nerd-font"

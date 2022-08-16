@@ -38,6 +38,7 @@ if [[ ! -f /opt/homebrew/Cellar/zinit/3.7/zinit.zsh ]]; then
 fi
 
 source "/opt/homebrew/Cellar/zinit/3.7/zinit.zsh"
+# source "/opt/homebrew/Cellar/zsh-autosuggestions/0.7.0/share/zsh-autosuggestions/zsh-autosuggestions.zsh"
 # nvm
 export NVM_DIR="$HOME/.nvm"
   [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
