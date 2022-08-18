@@ -104,6 +104,7 @@ alias cdnn='cd ~/.config/nvim'
 
 ## SocialDog
 alias cds='cd ~/socialdog/web'
+alias cdsg='cd ~/socialdog/web/application_go'
 
 ## Trander
 alias cdt='cd ~/trander'

@@ -32,6 +32,7 @@ brew "yarn"
 brew "composer"
 brew "zsh-autosuggestions"
 brew "golangci-lint"
+brew "mockery"
 
 # Go
 brew "gopls"
@@ -63,6 +64,7 @@ cask "figma"
 cask "microsoft-edge"
 cask "zoom"
 cask "krisp"
+cask "steam"
 
 tap "homebrew/cask-fonts"
 cask "font-hack-nerd-font"
