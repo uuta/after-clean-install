@@ -65,8 +65,10 @@ cask "microsoft-edge"
 cask "zoom"
 cask "krisp"
 cask "steam"
+cask "devtoys"
 
 tap "homebrew/cask-fonts"
 cask "font-hack-nerd-font"
 
 mas 'Dashlane', id: 517914548
+mas 'Line', id: 539883307
