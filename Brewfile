@@ -66,6 +66,7 @@ cask "zoom"
 cask "krisp"
 cask "steam"
 cask "devtoys"
+cask "1password"
 
 tap "homebrew/cask-fonts"
 cask "font-hack-nerd-font"
