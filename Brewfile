@@ -73,3 +73,4 @@ cask "font-hack-nerd-font"
 
 mas 'Dashlane', id: 517914548
 mas 'Line', id: 539883307
+mas 'HotspotShield VPN - Wifi Proxy', id: 771076721
