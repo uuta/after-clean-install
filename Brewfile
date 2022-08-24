@@ -68,6 +68,7 @@ cask "steam"
 cask "devtoys"
 cask "1password"
 cask "keep"
+cask "grammarly"
 
 tap "homebrew/cask-fonts"
 cask "font-hack-nerd-font"
