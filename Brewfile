@@ -33,6 +33,7 @@ brew "composer"
 brew "zsh-autosuggestions"
 brew "golangci-lint"
 brew "mockery"
+brew "gomodifytags"
 
 # Go
 brew "gopls"
