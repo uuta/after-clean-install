@@ -103,7 +103,8 @@ alias vv='vi ~/.vimrc'
 alias cdnn='cd ~/.config/nvim'
 
 ## SocialDog
-alias cds='cd ~/socialdog/web'
+alias cds='cd ~/socialdog'
+alias cdsw='cd ~/socialdog/web'
 alias cdsg='cd ~/socialdog/web/application_go'
 
 ## Trander
@@ -112,6 +113,11 @@ alias cdtf='cd ~/trander-flutter/trander_flutter/'
 
 ## After-Clean-Install
 alias cda='cd ~/after-clean-install'
+
+## To parent group-directoris
+alias a='cd ../'
+alias aa='cd ../../'
+alias aaa='cd ../../../'
 
 ## gvimrc(vimの見た目)
 alias sg='source ~/.gvimrc'
