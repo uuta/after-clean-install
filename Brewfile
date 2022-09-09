@@ -34,6 +34,7 @@ brew "zsh-autosuggestions"
 brew "golangci-lint"
 brew "mockery"
 brew "gomodifytags"
+brew "grc"
 
 # Go
 brew "gopls"
