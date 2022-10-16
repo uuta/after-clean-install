@@ -103,8 +103,8 @@ alias vv='vi ~/.vimrc'
 alias cdnn='cd ~/.config/nvim'
 
 ## SocialDog
-alias cds='cd ~/socialdog'
-alias cdsw='cd ~/socialdog/web'
+alias cdss='cd ~/socialdog'
+alias cds='cd ~/socialdog/web'
 alias cdsg='cd ~/socialdog/web/application_go'
 
 ## Trander
