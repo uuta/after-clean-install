@@ -106,6 +106,7 @@ alias cdnn='cd ~/.config/nvim'
 alias cdss='cd ~/socialdog'
 alias cds='cd ~/socialdog/web'
 alias cdsg='cd ~/socialdog/web/application_go'
+alias cdaa='cd ~/autoscale-probot'
 
 ## Trander
 alias cdt='cd ~/trander'
@@ -195,3 +196,5 @@ export PATH="/usr/local/opt/node@14/bin:$PATH"
 # znap
 source ~/app/zsh-snap/znap.zsh
 znap source marlonrichert/zsh-autocomplete
+eval "$(~/.rbenv/bin/rbenv init - zsh)"
+eval "$(rbenv init -)"
