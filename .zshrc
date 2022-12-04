@@ -115,6 +115,9 @@ alias cdtf='cd ~/trander-flutter/trander_flutter/'
 ## After-Clean-Install
 alias cda='cd ~/after-clean-install'
 
+## react-web-extension
+alias cdr='cd ~/react-web-extension'
+
 ## To parent group-directoris
 alias a='cd ../'
 alias aa='cd ../../'

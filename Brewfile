@@ -37,6 +37,7 @@ brew "gomodifytags"
 brew "grc"
 brew "act"
 brew "watchman"
+brew "hyper"
 
 # Go
 brew "gopls"
@@ -75,6 +76,7 @@ cask "keep"
 cask "grammarly"
 cask "vrew"
 cask "telegram"
+cask "rectangle"
 
 tap "homebrew/cask-fonts"
 cask "font-hack-nerd-font"
