@@ -38,6 +38,7 @@ brew "grc"
 brew "act"
 brew "watchman"
 brew "hyper"
+brew "direnv"
 
 # Go
 brew "gopls"
