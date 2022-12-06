@@ -39,6 +39,7 @@ brew "act"
 brew "watchman"
 brew "hyper"
 brew "direnv"
+brew "rust"
 
 # Go
 brew "gopls"
