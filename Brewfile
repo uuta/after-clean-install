@@ -81,6 +81,8 @@ cask "telegram"
 cask "rectangle"
 cask "alacritty"
 
+tap "wez/wezterm"
+
 tap "homebrew/cask-fonts"
 cask "font-hack-nerd-font"
 
