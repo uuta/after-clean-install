@@ -84,6 +84,7 @@ cask "alacritty"
 # WezTerm
 tap "wez/wezterm"
 cask "wez/wezterm/wezterm"
+cask "wez/wezterm/wezterm-nightly"
 
 tap "homebrew/cask-fonts"
 cask "font-hack-nerd-font"
