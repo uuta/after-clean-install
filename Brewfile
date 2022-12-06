@@ -78,6 +78,7 @@ cask "grammarly"
 cask "vrew"
 cask "telegram"
 cask "rectangle"
+cask "alacritty"
 
 tap "homebrew/cask-fonts"
 cask "font-hack-nerd-font"
