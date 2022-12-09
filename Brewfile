@@ -39,7 +39,7 @@ brew "act"
 brew "watchman"
 brew "hyper"
 brew "direnv"
-brew "rust"
+brew "rustup-init"
 
 # Go
 brew "gopls"
@@ -80,11 +80,11 @@ cask "vrew"
 cask "telegram"
 cask "rectangle"
 cask "alacritty"
+cask "spotify"
 
 # WezTerm
 tap "wez/wezterm"
 cask "wez/wezterm/wezterm"
-cask "wez/wezterm/wezterm-nightly"
 
 tap "homebrew/cask-fonts"
 cask "font-hack-nerd-font"

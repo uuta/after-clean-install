@@ -118,6 +118,9 @@ alias cda='cd ~/after-clean-install'
 ## react-web-extension
 alias cdr='cd ~/react-web-extension'
 
+## WezTerm
+alias cdw='cd ~/.config/wezterm'
+
 ## To parent group-directoris
 alias a='cd ../'
 alias aa='cd ../../'
@@ -195,6 +198,8 @@ export PATH="$HOME/cloud_sql_proxy:$PATH"
 eval "$(gh completion -s zsh)"
 export PATH="/usr/local/opt/node@14/bin:$PATH"
 ### End of Zinit's installer chunk
+
+eval "$(direnv hook zsh)"
 
 # znap
 source ~/app/zsh-snap/znap.zsh
