@@ -40,6 +40,7 @@ brew "watchman"
 brew "hyper"
 brew "direnv"
 brew "rustup-init"
+brwe "luarocks"
 
 # Go
 brew "gopls"
