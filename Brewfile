@@ -40,7 +40,7 @@ brew "watchman"
 brew "hyper"
 brew "direnv"
 brew "rustup-init"
-brwe "luarocks"
+brew "luarocks"
 
 # Go
 brew "gopls"
@@ -82,6 +82,8 @@ cask "telegram"
 cask "rectangle"
 cask "alacritty"
 cask "spotify"
+cask "vivaldi"
+cask "betterdummy"
 
 # WezTerm
 tap "wez/wezterm"

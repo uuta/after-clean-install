@@ -188,6 +188,9 @@ zstyle ':completion:*' list-colors 'di=34' 'ln=35' 'so=32' 'ex=31' 'bd=46;34' 'c
 export LDFLAGS="-L/usr/local/opt/zlib/lib"
 export CPPFLAGS="-I/usr/local/opt/zlib/include"
 
+# ChatGPT
+source "$HOME/.openai_key.zsh"
+
 # Embulk
 export PATH="$HOME/.embulk/bin:$PATH"
 
