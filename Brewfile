@@ -41,6 +41,8 @@ brew "hyper"
 brew "direnv"
 brew "rustup-init"
 brew "luarocks"
+brew "dnsmasq"
+brew "dive"
 
 # Go
 brew "gopls"
@@ -84,6 +86,7 @@ cask "alacritty"
 cask "spotify"
 cask "vivaldi"
 cask "betterdummy"
+cask "betterdisplay"
 
 # WezTerm
 tap "wez/wezterm"
