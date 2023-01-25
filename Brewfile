@@ -43,6 +43,8 @@ brew "rustup-init"
 brew "luarocks"
 brew "dnsmasq"
 brew "dive"
+brew "docker-slim"
+brew "silicon"
 
 # Go
 brew "gopls"

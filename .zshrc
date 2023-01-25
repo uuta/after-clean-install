@@ -121,6 +121,9 @@ alias cdr='cd ~/react-web-extension'
 ## WezTerm
 alias cdw='cd ~/.config/wezterm'
 
+## docker tutorial
+alias cdd='cd ~/docker-tutorial'
+
 ## To parent group-directoris
 alias a='cd ../'
 alias aa='cd ../../'
