@@ -45,6 +45,7 @@ brew "dnsmasq"
 brew "dive"
 brew "docker-slim"
 brew "silicon"
+brew "mold"
 
 # Go
 brew "gopls"
