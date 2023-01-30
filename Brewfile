@@ -46,6 +46,7 @@ brew "dive"
 brew "docker-slim"
 brew "silicon"
 brew "mold"
+brew "fd"
 
 # Go
 brew "gopls"
