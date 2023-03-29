@@ -47,6 +47,7 @@ brew "docker-slim"
 brew "silicon"
 brew "mold"
 brew "fd"
+brew "gnupg"
 
 # Go
 brew "gopls"
@@ -91,7 +92,6 @@ cask "spotify"
 cask "vivaldi"
 cask "betterdummy"
 cask "betterdisplay"
-cask "cryptomator"
 
 # WezTerm
 tap "wez/wezterm"
