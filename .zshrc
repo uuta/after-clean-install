@@ -1,3 +1,4 @@
+source ~/app/zsh-snap/znap.zsh
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -111,12 +112,10 @@ alias cdaa='cd ~/autoscale-probot'
 ## Trander
 alias cdt='cd ~/trander'
 alias cdtf='cd ~/trander-flutter/trander_flutter/'
+alias cdr='cd ~/trander-rust'
 
 ## After-Clean-Install
 alias cda='cd ~/after-clean-install'
-
-## react-web-extension
-alias cdr='cd ~/react-web-extension'
 
 ## WezTerm
 alias cdw='cd ~/.config/wezterm'
@@ -200,6 +199,10 @@ export PATH="$HOME/.embulk/bin:$PATH"
 # cloud_sql
 export PATH="$HOME/cloud_sql_proxy:$PATH"
 
+# Docker
+# Buildツールを使うかどうか
+# export DOCKER_BUILDKIT=1
+
 # GitHub CLI
 eval "$(gh completion -s zsh)"
 export PATH="/usr/local/opt/node@14/bin:$PATH"
@@ -208,7 +211,6 @@ export PATH="/usr/local/opt/node@14/bin:$PATH"
 eval "$(direnv hook zsh)"
 
 # znap
-source ~/app/zsh-snap/znap.zsh
 znap source marlonrichert/zsh-autocomplete
 eval "$(~/.rbenv/bin/rbenv init - zsh)"
 eval "$(rbenv init -)"

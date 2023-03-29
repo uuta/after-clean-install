@@ -91,6 +91,7 @@ cask "spotify"
 cask "vivaldi"
 cask "betterdummy"
 cask "betterdisplay"
+cask "cryptomator"
 
 # WezTerm
 tap "wez/wezterm"
