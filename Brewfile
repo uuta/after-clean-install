@@ -48,6 +48,7 @@ brew "silicon"
 brew "mold"
 brew "fd"
 brew "gnupg"
+brew "python3"
 
 # Go
 brew "gopls"
