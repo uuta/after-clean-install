@@ -123,6 +123,9 @@ alias cdw='cd ~/.config/wezterm'
 ## docker tutorial
 alias cdd='cd ~/docker-tutorial'
 
+## Auto-GPT
+alias cdg='cd ~/Auto-GPT'
+
 ## To parent group-directoris
 alias a='cd ../'
 alias aa='cd ../../'
@@ -206,7 +209,16 @@ export PATH="$HOME/cloud_sql_proxy:$PATH"
 # GitHub CLI
 eval "$(gh completion -s zsh)"
 export PATH="/usr/local/opt/node@14/bin:$PATH"
+
+# Git diff highlight
+export PATH="$PATH:/opt/homebrew/share/git-core/contrib/diff-highlight"
 ### End of Zinit's installer chunk
+
+# python
+# export PATH="/opt/homebrew/Cellar/python@3.10/3.10.11/bin:$PATH"
+export PATH=/opt/homebrew/bin:$PATH
+export PATH="/opt/homebrew/opt/python@3.10/libexec/bin:$PATH"
+export PATH="/opt/homebrew/bin/conda:$PATH"
 
 eval "$(direnv hook zsh)"
 
@@ -214,3 +226,19 @@ eval "$(direnv hook zsh)"
 znap source marlonrichert/zsh-autocomplete
 eval "$(~/.rbenv/bin/rbenv init - zsh)"
 eval "$(rbenv init -)"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/opt/homebrew/Caskroom/miniforge/base/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/opt/homebrew/Caskroom/miniforge/base/etc/profile.d/conda.sh" ]; then
+        . "/opt/homebrew/Caskroom/miniforge/base/etc/profile.d/conda.sh"
+    else
+        export PATH="/opt/homebrew/Caskroom/miniforge/base/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+

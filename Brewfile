@@ -19,6 +19,7 @@ brew "php"
 brew "php@7.4"
 brew "php@8.0"
 brew "python@3.8"
+brew "python@3.10"
 brew "typescript"
 brew "zinit"
 brew "romkatv/powerlevel10k/powerlevel10k"
@@ -48,6 +49,7 @@ brew "silicon"
 brew "mold"
 brew "fd"
 brew "gnupg"
+brew "hyperfine"
 
 # Go
 brew "gopls"
@@ -92,6 +94,7 @@ cask "spotify"
 cask "vivaldi"
 cask "betterdummy"
 cask "betterdisplay"
+cask "miniforge"
 
 # WezTerm
 tap "wez/wezterm"
