@@ -202,6 +202,9 @@ export PATH="$HOME/.embulk/bin:$PATH"
 # cloud_sql
 export PATH="$HOME/cloud_sql_proxy:$PATH"
 
+export NVIM_LOG_FILE="$HOME/.config/nvim/logs.log"
+export NVIM_LOG_LEVEL="DEBUG"
+
 # Docker
 # Buildツールを使うかどうか
 # export DOCKER_BUILDKIT=1
@@ -221,6 +224,9 @@ export PATH="/opt/homebrew/opt/python@3.10/libexec/bin:$PATH"
 export PATH="/opt/homebrew/bin/conda:$PATH"
 
 eval "$(direnv hook zsh)"
+
+# go
+export PATH=$PATH:$GOPATH/bin
 
 # znap
 znap source marlonrichert/zsh-autocomplete

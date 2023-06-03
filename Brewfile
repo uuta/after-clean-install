@@ -50,6 +50,9 @@ brew "mold"
 brew "fd"
 brew "gnupg"
 brew "hyperfine"
+brew "protobuf"
+brew "cmake"
+brew "wget"
 
 # Go
 brew "gopls"
@@ -95,6 +98,8 @@ cask "vivaldi"
 cask "betterdummy"
 cask "betterdisplay"
 cask "miniforge"
+cask "keycastr"
+cask "diffusionbee"
 
 # WezTerm
 tap "wez/wezterm"
