@@ -100,6 +100,7 @@ cask "betterdisplay"
 cask "miniforge"
 cask "keycastr"
 cask "diffusionbee"
+cask "gulp"
 
 # WezTerm
 tap "wez/wezterm"
