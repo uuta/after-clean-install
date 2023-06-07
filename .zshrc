@@ -228,6 +228,9 @@ eval "$(direnv hook zsh)"
 # go
 export PATH=$PATH:$GOPATH/bin
 
+# surfingkeys gulp
+export PATH=$PATH:$HOME/surfingkeys-conf/node_modules/.bin
+
 # znap
 znap source marlonrichert/zsh-autocomplete
 eval "$(~/.rbenv/bin/rbenv init - zsh)"
