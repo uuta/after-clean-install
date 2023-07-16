@@ -126,6 +126,9 @@ alias cdd='cd ~/docker-tutorial'
 ## Auto-GPT
 alias cdg='cd ~/Auto-GPT'
 
+## Surfingkeys-conf
+alias cdl='cd ~/surfingkeys-conf'
+
 ## To parent group-directoris
 alias a='cd ../'
 alias aa='cd ../../'

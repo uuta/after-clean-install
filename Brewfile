@@ -101,6 +101,7 @@ cask "miniforge"
 cask "keycastr"
 cask "diffusionbee"
 cask "gulp"
+cask "google-cloud-sdk"
 
 # WezTerm
 tap "wez/wezterm"
