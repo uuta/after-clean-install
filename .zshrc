@@ -129,6 +129,9 @@ alias cdg='cd ~/Auto-GPT'
 ## Surfingkeys-conf
 alias cdl='cd ~/surfingkeys-conf'
 
+## Hammerspoon
+alias cdh='cd ~/.hammerspoon'
+
 ## To parent group-directoris
 alias a='cd ../'
 alias aa='cd ../../'
