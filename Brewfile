@@ -102,6 +102,7 @@ cask "keycastr"
 cask "diffusionbee"
 cask "gulp"
 cask "google-cloud-sdk"
+cask "telegram"
 
 # WezTerm
 tap "wez/wezterm"
