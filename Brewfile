@@ -105,6 +105,7 @@ cask "gulp"
 cask "google-cloud-sdk"
 cask "telegram"
 cask "cursor"
+cask "android-studio"
 
 # WezTerm
 tap "wez/wezterm"
