@@ -53,6 +53,7 @@ brew "hyperfine"
 brew "protobuf"
 brew "cmake"
 brew "wget"
+brew "dart"
 
 # Go
 brew "gopls"
