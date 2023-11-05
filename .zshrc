@@ -132,6 +132,9 @@ alias cdl='cd ~/surfingkeys-conf'
 ## Hammerspoon
 alias cdh='cd ~/.hammerspoon'
 
+## astro-blog
+alias cdb='cd ~/astro-blog'
+
 ## To parent group-directoris
 alias a='cd ../'
 alias aa='cd ../../'
