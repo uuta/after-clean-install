@@ -111,7 +111,7 @@ alias cdaa='cd ~/autoscale-probot'
 
 ## Trander
 alias cdt='cd ~/trander'
-alias cdtf='cd ~/trander-flutter/trander_flutter/'
+alias cdf='cd ~/trander-flutter/trander_flutter/'
 alias cdr='cd ~/trander-rust'
 
 ## After-Clean-Install
