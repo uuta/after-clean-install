@@ -105,6 +105,7 @@ cask "telegram"
 cask "cursor"
 cask "android-studio"
 cask "karabiner-elements"
+cask "freetube"
 
 # WezTerm
 tap "wez/wezterm"

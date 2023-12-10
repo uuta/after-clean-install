@@ -29,6 +29,10 @@ export PKG_CONFIG_PATH="/usr/local/opt/icu4c/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PATH="$PATH:`pwd`/flutter/bin"
 export PATH="$PATH:~/flutter/bin"
 
+# platform-tools
+export ANDROID_HOME=/Users/$USER/Library/Android/sdk
+export PATH="$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools"
+
 ### Added by Zinit's installer
 if [[ ! -f /opt/homebrew/Cellar/zinit/3.7/zinit.zsh ]]; then
     print -P "%F{33}▓▒░ %F{220}Installing %F{33}DHARMA%F{220} Initiative Plugin Manager (%F{33}zdharma/zinit%F{220})…%f"
@@ -111,10 +115,10 @@ alias cdaa='cd ~/autoscale-probot'
 
 ## Trander
 alias cdt='cd ~/trander'
-alias cdf='cd ~/trander-flutter/trander_flutter/'
+alias cdf='cd ~/trander_flutter/'
 alias cdr='cd ~/trander-rust'
 
-## After-Clean-Install
+## Aftgr-Clean-Install
 alias cda='cd ~/after-clean-install'
 
 ## WezTerm
