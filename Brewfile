@@ -52,7 +52,7 @@ brew "hyperfine"
 brew "protobuf"
 brew "cmake"
 brew "wget"
-brew "flutter"
+brew "fvm"
 
 # Go
 brew "gopls"
