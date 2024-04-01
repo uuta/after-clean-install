@@ -44,10 +44,6 @@ fi
 
 source "/opt/homebrew/Cellar/zinit/3.7/zinit.zsh"
 source "/opt/homebrew/Cellar/zsh-autosuggestions/0.7.0/share/zsh-autosuggestions/zsh-autosuggestions.zsh"
-# nvm
-export NVM_DIR="$HOME/.nvm"
-  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
-  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinit
 
@@ -115,7 +111,7 @@ alias cdaa='cd ~/autoscale-probot'
 
 ## Trander
 alias cdt='cd ~/trander'
-alias cdf='cd ~/trander_flutter/'
+alias cdf='cd ~/trander_flutter'
 alias cdr='cd ~/trander-rust'
 
 ## Aftgr-Clean-Install
@@ -250,6 +246,16 @@ export PATH=$PATH:$HOME/surfingkeys-conf/node_modules/.bin
 znap source marlonrichert/zsh-autocomplete
 eval "$(~/.rbenv/bin/rbenv init - zsh)"
 eval "$(rbenv init -)"
+
+# mecab for SocialDog
+export CGO_LDFLAGS="`mecab-config --libs`"
+export CGO_CFLAGS="-I`mecab-config --inc-dir`"
+export MECAB_DIC_PATH=$(mecab-config --dicdir)/mecab-ipadic-neologd
+
+# nvm
+export NVM_DIR="$HOME/.nvm"
+  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
