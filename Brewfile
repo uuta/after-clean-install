@@ -108,6 +108,7 @@ cask "karabiner-elements"
 cask "freetube"
 cask "orbstack"
 cask "via"
+cask "brew"
 
 # WezTerm
 tap "wez/wezterm"
