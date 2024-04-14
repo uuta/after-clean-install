@@ -109,6 +109,7 @@ cask "freetube"
 cask "orbstack"
 cask "via"
 cask "brew"
+cask "steam"
 
 # WezTerm
 tap "wez/wezterm"
