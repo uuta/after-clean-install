@@ -54,6 +54,7 @@ brew "cmake"
 brew "wget"
 brew "fvm"
 brew "neofetch"
+brew "yt-dlp"
 
 # Go
 brew "gopls"

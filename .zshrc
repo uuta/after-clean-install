@@ -231,7 +231,8 @@ export PATH="$PATH:/opt/homebrew/share/git-core/contrib/diff-highlight"
 # python
 # export PATH="/opt/homebrew/Cellar/python@3.10/3.10.11/bin:$PATH"
 export PATH=/opt/homebrew/bin:$PATH
-export PATH="/opt/homebrew/opt/python@3.10/libexec/bin:$PATH"
+# Changed path for python@3.8
+export PATH="/opt/homebrew/opt/python@3.8/libexec/bin:$PATH"
 export PATH="/opt/homebrew/bin/conda:$PATH"
 
 eval "$(direnv hook zsh)"
