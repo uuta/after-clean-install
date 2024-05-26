@@ -53,6 +53,7 @@ brew "protobuf"
 brew "cmake"
 brew "wget"
 brew "fvm"
+brew "neofetch"
 
 # Go
 brew "gopls"
