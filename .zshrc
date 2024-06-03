@@ -13,6 +13,13 @@ mkdir -p ~/.znap/repos
 
 source ~/.znap/znap.zsh
 zstyle ':znap:*' repos-dir ~/.znap/repos
+zstyle ':completion:*' list-colors 'di=34' 'ln=35' 'so=32' 'ex=31' 'bd=46;34' 'cd=43;34'
+
+# Load plugins (To install and update plugins, run `znap pull` command)
+znap source marlonrichert/zsh-autocomplete
+znap source zsh-users/zsh-syntax-highlighting
+znap source zsh-users/zsh-autosuggestions
+znap source rupa/z
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -58,7 +65,7 @@ if [[ ! -f /opt/homebrew/Cellar/zinit/3.7/zinit.zsh ]]; then
 fi
 
 source "/opt/homebrew/Cellar/zinit/3.7/zinit.zsh"
-source "/opt/homebrew/Cellar/zsh-autosuggestions/0.7.0/share/zsh-autosuggestions/zsh-autosuggestions.zsh"
+# source "/opt/homebrew/Cellar/zsh-autosuggestions/0.7.0/share/zsh-autosuggestions/zsh-autosuggestions.zsh"
 autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinit
 
@@ -67,7 +74,7 @@ autoload -Uz _zinit
 ### Color configuration
 export CLICOLOR=1
 export TERM=xterm-256color
-source "/opt/homebrew/Cellar/zsh-syntax-highlighting/0.7.1/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
+# source "/opt/homebrew/Cellar/zsh-syntax-highlighting/0.7.1/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 
 #################################
 ## prompt
@@ -211,8 +218,6 @@ alias ls="ls -GF"
 alias gls="gls --color"
 
 alias f="fvm flutter"
-
-zstyle ':completion:*' list-colors 'di=34' 'ln=35' 'so=32' 'ex=31' 'bd=46;34' 'cd=43;34'
 
 export LDFLAGS="-L/usr/local/opt/zlib/lib"
 export CPPFLAGS="-I/usr/local/opt/zlib/include"
