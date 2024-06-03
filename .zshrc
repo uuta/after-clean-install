@@ -1,4 +1,19 @@
-source ~/app/zsh-snap/znap.zsh
+################################
+### znap: Zsh plugin manager
+################################
+
+# Download Znap, if it's not there yet.
+[[ -r ~/.znap/znap.zsh ]] ||
+    git clone --depth 1 -- \
+        https://github.com/marlonrichert/zsh-snap.git ~/.znap
+
+# Make sure the repos directory exists
+# -p: creates the parent directory if it doesn't exist(/aaa/bbb/ccc -> aaa, bbb, ccc ex)
+mkdir -p ~/.znap/repos
+
+source ~/.znap/znap.zsh
+zstyle ':znap:*' repos-dir ~/.znap/repos
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -146,9 +161,7 @@ alias vg='vi ~/.gvimrc'
 
 ## neovim
 alias nn='nvim'
-alias nnv='nvim ~/.vimrc'
 alias nnz='nvim ~/.zshrc'
-alias nnd='nvim ~/.config/nvim/toml/dein.toml'
 alias nni='nvim ~/.config/nvim/init.lua'
 alias nnb='nvim ~/after-clean-install/Brewfile'
 
@@ -242,11 +255,6 @@ export PATH=$PATH:$GOPATH/bin
 
 # surfingkeys gulp
 export PATH=$PATH:$HOME/surfingkeys-conf/node_modules/.bin
-
-# znap
-znap source marlonrichert/zsh-autocomplete
-eval "$(~/.rbenv/bin/rbenv init - zsh)"
-eval "$(rbenv init -)"
 
 # mecab for SocialDog
 export CGO_LDFLAGS="`mecab-config --libs`"
