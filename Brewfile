@@ -58,7 +58,6 @@ brew "yt-dlp"
 brew "gopls"
 brew "go@1.18"
 
-cask "alfred"
 cask "appcleaner"
 cask "docker"
 cask "firefox"
