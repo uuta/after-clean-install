@@ -146,8 +146,8 @@ alias cdw='cd ~/.config/wezterm'
 ## docker tutorial
 alias cdd='cd ~/docker-tutorial'
 
-## Auto-GPT
-alias cdg='cd ~/Auto-GPT'
+## gas
+alias cdg='cd ~/gas'
 
 ## Surfingkeys-conf
 alias cdl='cd ~/surfingkeys-conf'
