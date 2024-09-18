@@ -98,8 +98,9 @@ alias ga='git add'
 alias gc='git checkout'
 alias gm='git commit -m'
 alias gps='git push'
-alias gpl='git pull'
+alias gpl='git pull origin'
 alias gpm='git pull origin master'
+alias gmm='git merge origin/master'
 alias gr-s='git reset --soft HEAD^'
 alias gr-h='git reset --hard HEAD^'
 alias gd='git diff'
@@ -124,7 +125,7 @@ alias sv='source ~/.vimrc'
 alias vv='vi ~/.vimrc'
 
 ## nvim
-alias cdnn='cd ~/.config/nvim'
+alias cdnn='cd ~/dotfiles/.config/nvim'
 
 ## SocialDog
 alias cdss='cd ~/socialdog'
@@ -147,7 +148,7 @@ alias cdw='cd ~/.config/wezterm'
 alias cdd='cd ~/docker-tutorial'
 
 ## gas
-alias cdg='cd ~/gas'
+alias cdg='cd ~/gas-workout-logs'
 
 ## Surfingkeys-conf
 alias cdl='cd ~/surfingkeys-conf'
