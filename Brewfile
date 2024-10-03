@@ -51,6 +51,10 @@ brew "wget"
 brew "fvm"
 brew "neofetch"
 brew "yt-dlp"
+brew "lnav"
+brew "bottom"
+brew "dust"
+brew "procs"
 
 # Go
 brew "gopls"
@@ -108,6 +112,7 @@ cask "via"
 cask "brew"
 cask "steam"
 cask "raspberry-pi-imager"
+cask "insomnia"
 
 # WezTerm
 tap "wez/wezterm"
