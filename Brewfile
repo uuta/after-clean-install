@@ -113,6 +113,7 @@ cask "brew"
 cask "steam"
 cask "raspberry-pi-imager"
 cask "insomnia"
+cask "superproductivity"
 
 # WezTerm
 tap "wez/wezterm"
